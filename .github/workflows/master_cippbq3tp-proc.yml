@@ -27,4 +27,6 @@ jobs:
           app-name: 'cippbq3tp-proc'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AE6A596BC29D419AAF2BA87238C5CE62 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C6422317EA984E2F9A8EF8664923E46B }}
+          sku: 'flexconsumption'
+        
