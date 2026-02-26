@@ -27,6 +27,6 @@ jobs:
           app-name: 'cippo4cgj'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5288A46A715F4D6EB216812CCCAF36AB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F5E9FFE6CFA24F079E0F5B57C3B647F6 }}
           sku: 'flexconsumption'
         
